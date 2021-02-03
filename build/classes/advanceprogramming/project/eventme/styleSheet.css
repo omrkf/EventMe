@@ -1,0 +1,186 @@
+#AnchorpaneofSign{
+    -fx-background-color: rgba(141, 147, 171,0.3);
+}
+#AnchorPane{
+    -fx-background-color: #393b44;
+}
+#AnchorpaneofAttend{
+    -fx-background-color: rgba(141, 147, 171,0.3);
+
+}
+
+#textFofUserName{
+    -fx-background-color: #f1f3f8;
+    -fx-background-radius: 5em;
+    -fx-border-radius: 5em;
+}
+#textFofPassword{
+    -fx-background-color: #f1f3f8;
+    -fx-background-radius: 5em;
+    -fx-border-radius: 5em;
+}
+#buttonofSignin{
+    -fx-background-color: #f1f3f8;
+    -fx-background-radius: 5em;
+    -fx-border-radius: 5em;
+}
+#buttonofSignin:hover{
+    -fx-background-color: rgba(141, 147, 171,0.3);
+    -fx-text-fill: #f1f3f8;
+    -fx-background-radius: 5em;
+    -fx-border-radius: 5em;
+}
+#buttonsofHome{
+    -fx-background-color: #f1f3f8;
+    -fx-background-radius: 5em;
+    -fx-border-radius: 5em;
+}
+#buttonsofHome:hover{
+    -fx-background-color: #393b44;
+    -fx-text-fill: #f1f3f8;
+    -fx-background-radius: 5em;
+    -fx-border-radius: 5em;
+}
+#buttonsofHomeLogout{
+    -fx-background-color: #f05454;
+    -fx-background-radius: 5em;
+    -fx-border-radius: 5em;
+}
+#buttonsofHomeLogout:hover{
+    -fx-background-color: #af2d2d;
+    -fx-text-fill: #f1f3f8;
+    -fx-background-radius: 5em;
+    -fx-border-radius: 5em;
+}
+#buttonsofAttend{
+    -fx-background-color: #f1f3f8;
+    -fx-background-radius: 5em;
+    -fx-border-radius: 5em;
+}
+#buttonsofAttend:hover{
+    -fx-background-color: #bedbbb;
+    -fx-text-fill: #393b44;
+    -fx-background-radius: 5em;
+    -fx-border-radius: 5em;
+}
+.table-view{
+    -fx-background-color: #ffffff;
+}
+.table-view:focused{
+    -fx-background-color: transparent;
+}
+.table-view .column-header-background{
+    -fx-background-color: linear-gradient(#bedbbb 0%, #bedbbb 100%);
+}
+.table-view .column-header-background .label{
+    -fx-background-color: transparent;
+    -fx-text-fill: #393b44;
+}
+.table-view .column-header {
+    -fx-background-color: transparent;
+}
+.table-view .table-cell{
+    -fx-text-fill: #ffffff;
+}
+.table-row-cell{
+    -fx-background-color: -fx-table-cell-border-color, #ffffff;
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-padding: 0.0em; /* 0 */
+}
+.table-row-cell:odd{
+    -fx-background-color: -fx-table-cell-border-color, #ffffff;
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-padding: 0.0em; /* 0 */  
+}
+.table-row-cell:selected {
+    -fx-background-color: #393b44;
+    -fx-background-insets: 0;
+    -fx-background-radius: 1;
+}
+
+.table-view > .virtual-flow > .scroll-bar:vertical,
+.table-view > .virtual-flow > .scroll-bar:vertical > .track,
+.table-view > .virtual-flow > .scroll-bar:vertical > .track-background, 
+.table-view > .virtual-flow > .scroll-bar:horizontal,
+.table-view > .virtual-flow > .scroll-bar:horizontal > .track,
+.table-view > .virtual-flow > .scroll-bar:horizontal > .track-background {
+    -fx-background-color: transparent;
+}
+
+
+
+.table-view > .virtual-flow > .scroll-bar > .increment-button, 
+.table-view > .virtual-flow > .scroll-bar > .decrement-button {
+    -fx-opacity: 0;
+}
+
+.AnasCSS{
+    
+}
+
+.Anasbuttons{
+    -fx-background-color: #f1f3f8;
+    -fx-background-radius: 5em;
+    -fx-border-radius: 5em;
+}
+.Anasbuttons:hover{
+    -fx-background-color: rgba(141, 147, 171,0.3);
+    -fx-text-fill: #f1f3f8;
+    -fx-background-radius: 5em;
+    -fx-border-radius: 5em;
+}
+.AnasArchonPane{
+    -fx-background-color: rgba(141, 147, 171,0.3);
+}
+/*
+* {
+    -fx-primary : #2A2E37;
+    -fx-secondary : #FFFF8D;
+    -fx-primarytext : #B2B2B2;
+    -fx-blue: #1976D2;
+    -fx-red: #FF0000;
+}
+
+.root{
+    -fx-background-color: -fx-primary;
+}
+
+.glyph-icon
+{
+    -fx-fill: -fx-primarytext;
+}
+
+.button{
+    -fx-text-fill: -fx-primarytext;
+    -fx-background-color: -fx-primary;
+    -fx-border-color: -fx-secondary;
+    -fx-border-radius: 20px;
+    -fx-background-radius: 20px;
+    -fx-font-size: 13pt;
+}
+
+.button:hover{
+    -fx-border-color: -fx-secondary;
+    -fx-background-color: -fx-secondary;
+    -fx-text-fill: -fx-primary;
+}
+
+.text-field
+{
+    -fx-text-fill: -fx-primarytext;
+    -fx-font-size : 13pt;
+    -jfx-focus-color: -fx-secondary;
+    -fx-text-fill: derive(-fx-secondary, 20%);
+}
+
+.scroll-pane {
+   -fx-background-color: -fx-primary;
+}
+
+.text-area{
+    
+    -fx-text-fill: -fx-primarytext;
+    -fx-font-size : 13pt;
+    -jfx-focus-color: -fx-secondary;
+    -fx-text-fill: derive(-fx-secondary, 20%);
+}*/

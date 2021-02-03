@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="500.0" prefWidth="600.0" stylesheets="@styleSheet.css" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="advanceprogramming.project.eventme.AttendController">
+   <children>
+      <AnchorPane id="AnchorpaneofAttend" layoutX="150.0" layoutY="148.0" prefHeight="275.0" prefWidth="300.0" stylesheets="@styleSheet.css">
+         <children>
+            <Circle fill="#f1f3f8" layoutX="150.0" radius="44.0" stroke="BLACK" strokeType="INSIDE" />
+            <ImageView layoutX="125.0" layoutY="-25.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/icons8_attendance_50px.png" />
+               </image>
+            </ImageView>
+            <TextField id="textFofCode" fx:id="textFofEnterYourCode" alignment="CENTER" layoutX="25.0" layoutY="60.0" prefHeight="40.0" prefWidth="250.0" promptText="Enter Code" stylesheets="@styleSheet.css">
+               <font>
+                  <Font name="Agency FB Bold" size="20.0" />
+               </font>
+            </TextField>
+            <Button id="buttonsofAttend" fx:id="buttonofAttendinAttend" alignment="CENTER" contentDisplay="CENTER" layoutX="90.0" layoutY="138.0" mnemonicParsing="false" onAction="#buttonofAttendinAttend" prefHeight="40.0" prefWidth="120.0" stylesheets="@styleSheet.css" text="ATTEND">
+               <font>
+                  <Font name="Agency FB" size="20.0" />
+               </font>
+            </Button>
+            <Button id="buttonsofAttend" fx:id="buttonofPrintinAttend" alignment="CENTER" contentDisplay="CENTER" layoutX="90.0" layoutY="207.0" mnemonicParsing="false" onAction="#buttonofPrintinAttend" prefHeight="40.0" prefWidth="120.0" stylesheets="@styleSheet.css" text="PRINT CARD">
+               <font>
+                  <Font name="Agency FB" size="20.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+      <Button id="buttonsofHomeLogout" fx:id="buttonofLogoutinAttend" alignment="CENTER" contentDisplay="CENTER" layoutX="450.0" layoutY="434.0" mnemonicParsing="false" onAction="#buttonofLogout" prefHeight="40.0" prefWidth="120.0" stylesheets="@styleSheet.css" text="Logout">
+         <font>
+            <Font name="Agency FB" size="20.0" />
+         </font>
+      </Button>
+      <Button id="buttonofSignin" fx:id="buttonofBack" alignment="CENTER" contentDisplay="CENTER" layoutX="30.0" layoutY="434.0" mnemonicParsing="false" onAction="#buttonofBack" prefHeight="40.0" prefWidth="120.0" stylesheets="@styleSheet.css" text="BACK">
+         <font>
+            <Font name="Agency FB" size="20.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="200.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/withoutArtboard%201%20copy%202.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

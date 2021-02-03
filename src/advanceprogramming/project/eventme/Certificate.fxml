@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="500.0" prefWidth="600.0" stylesheets="@styleSheet.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="advanceprogramming.project.eventme.CertificateController">
+   <children>
+      <AnchorPane id="AnchorpaneofAttend" layoutX="150.0" layoutY="146.0" prefHeight="275.0" prefWidth="300.0" stylesheets="@styleSheet.css">
+         <children>
+            <Circle fill="#f1f3f8" layoutX="150.0" radius="44.0" stroke="BLACK" strokeType="INSIDE" />
+            <ImageView layoutX="125.0" layoutY="-25.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/icons8_certificate_50px.png" />
+               </image>
+            </ImageView>
+            <TextField id="textFofCode" fx:id="textFofEnterYourCode" alignment="CENTER" layoutX="25.0" layoutY="88.0" prefHeight="40.0" prefWidth="250.0" promptText="Enter User ID" stylesheets="@styleSheet.css">
+               <font>
+                  <Font name="Agency FB Bold" size="20.0" />
+               </font>
+            </TextField>
+            <Button id="buttonsofAttend" fx:id="buttonofAttendinAttend" alignment="CENTER" contentDisplay="CENTER" layoutX="90.0" layoutY="187.0" mnemonicParsing="false" onAction="#buttonofSendinCert" prefHeight="40.0" prefWidth="120.0" stylesheets="@styleSheet.css" text="SEND">
+               <font>
+                  <Font name="Agency FB" size="20.0" />
+               </font>
+            </Button>
+            <Label fx:id="FailLabel" alignment="CENTER" layoutX="18.0" layoutY="117.0" prefHeight="21.0" prefWidth="264.0" stylesheets="@styleSheet.css" textFill="#ff7d7d" />
+         </children>
+      </AnchorPane>
+      <Button id="buttonsofHomeLogout" fx:id="buttonofLogout" alignment="CENTER" contentDisplay="CENTER" layoutX="460.0" layoutY="444.0" mnemonicParsing="false" onAction="#buttonofLogout" prefHeight="40.0" prefWidth="120.0" stylesheets="@styleSheet.css" text="Logout">
+         <font>
+            <Font name="Agency FB" size="20.0" />
+         </font>
+      </Button>
+      <Button id="buttonofSignin" fx:id="buttonofBack" alignment="CENTER" contentDisplay="CENTER" layoutX="40.0" layoutY="444.0" mnemonicParsing="false" onAction="#buttonofBack" prefHeight="40.0" prefWidth="120.0" stylesheets="@styleSheet.css" text="BACK">
+         <font>
+            <Font name="Agency FB" size="20.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="200.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/withoutArtboard%201%20copy%202.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
